@@ -1,0 +1,27 @@
+{
+    "inference_mode": true,
+    "sourcePath" : "test.jpg",
+
+    "Person_Detection": {
+        "Yolo_V3": {
+            "cfg_path": "Person_Detector/Models/yolov3-320.cfg",
+            "names_path": "Person_Detector/Models/coco.names",
+            "weights_path": "Person_Detector/Models/yolov3-320.weights",
+            "images_path": "Detected_Persons",
+            "bbox_padding": 20,
+            "Threshold_values":{
+                "confThreshold" : 0.7,
+                "nmsThreshold" : 0.4,
+                "input_size" : 320,
+                "person_class_index" : [0],
+                "scale_factor" : 0.003921569,
+                "swapRB" : true,
+                "crop" : false
+            
+            }
+            
+
+        }
+    }
+       
+}

@@ -1,0 +1,11 @@
+[2023-05-22 10:28:35,635 - INFO - utils.py:71 -           UpdateLogs() ] Initializing Person Detector Module
+[2023-05-22 10:28:35,635 - INFO - utils.py:71 -           UpdateLogs() ] Loading Classnames
+[2023-05-22 10:28:35,635 - INFO - utils.py:71 -           UpdateLogs() ] Class Names Loaded
+[2023-05-22 10:28:35,635 - INFO - utils.py:71 -           UpdateLogs() ] Loading Model Weight and Config
+[2023-05-22 10:28:35,715 - INFO - utils.py:71 -           UpdateLogs() ] Loaded Model Weight and Config
+[2023-05-22 10:28:35,715 - INFO - utils.py:71 -           UpdateLogs() ] Person Model Initialized and Classes loaded
+[2023-05-22 10:28:35,716 - INFO - utils.py:71 -           UpdateLogs() ] Reading Source Image
+[2023-05-22 10:28:35,719 - INFO - utils.py:71 -           UpdateLogs() ] Detect Objects
+[2023-05-22 10:28:35,983 - INFO - utils.py:71 -           UpdateLogs() ] Processing BBOX
+[2023-05-22 10:28:36,003 - INFO - utils.py:71 -           UpdateLogs() ] Applying NMS
+[2023-05-22 10:28:36,011 - INFO - utils.py:71 -           UpdateLogs() ] Time took to process Image :0.3s
